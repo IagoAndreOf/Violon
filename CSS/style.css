@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#menu ul{
+    list-style: none;
+    padding: 0;
+    background-image: linear-gradient( 135deg, #55555527 40%, #00000094 50%);
+    text-align: right;
+}
+
+#menu ul li{
+    display: inline;
+}
+
+#menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    display: inline;
+    padding: 20px;
+    display: inline-block;
+    padding-top: 20px;
+}
+
+#menu ul li a:hover{
+    background-color: #B17A75;
+    transition: 0.5s;
+}
+#menu ul li:last-child a{
+    float: left;
+    margin-left: 60px;
+}
+
+#aprend{
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+}
+
+#apren{
+    display: flex;
+    justify-content: center;
+}
+
+.ap{
+    width: 800px;
+}
+
+.a{
+    width: 800px;
+    color: #FFF;
+}
+
+#const{
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+}
+
+.c{
+    width: 800px;
+}
+
+#hist{
+    display: flex;
+    justify-content: center;
+}
+
+.h{
+    width: 800px;
+    color: #ffffff;
+}
+
+
+#deriv{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.cont{
+    width: 800px;
+    color: #fffdfd;
+  
+}
+
+h2{
+    margin-top: 8%;
+}
+
+
+img{
+    margin-top: 8%;
+    width: 800px;
+}
+
+#est{
+    width: 250px;
+    align-items: center;
+}
+
+
+p{
+    margin-top: 8%;
+    font-size: 160%;
+   
+}
+
+#titulo{
+    margin-top: 4%;
+    margin-bottom: 5%;
+    font-size: 300%;
+    text-align: center;
+}
+
+
+
+
+video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-size: cover;
+
+}
+
+
+.banner video{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    
+}
+ 
+video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+    z-index: -100;
+    background-size: cover;
+
+}
+
+footer {
+    position: absolute;
+    background-image: linear-gradient( 160deg, #55555552 40%, #00000059 50%);
+    color: #FFF;
+    width: 100%;
+    height: 90px;    
+    text-align: center;
+
+    
+}
+
+footer p{
+    margin-top: 10px;
+    font-size: 80%;
+}
+
+#insta{
+    text-decoration: none;
+    color: #fd7012;
+}
+
+#cred{
+    display: flex;
+    justify-content: left;
+    background-color: #5555552a; 
+    width: 90px;
+    color: #FFF;
+}
+
+#cred .cr{
+    text-decoration: none;
+    margin-left: 1%;
+    margin-top: 8%;
+}
+
+#cred p {
+    font-size: 80%;
+}
+
+#cred a{
+    text-decoration: none;
+    padding: -200px;
+    font-size: 60%;
+    color: #f1f1f1;
+}
+
+#violão{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: #f1f1f1;
+}
+
+#violão .v{
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 15%;
+}
+
+#violão p{
+    font-size: 100%;
+    margin-left: 50%;
+    margin-top: 19%;
+}
+
